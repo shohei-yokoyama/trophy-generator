@@ -63,7 +63,7 @@ export default {
     margin: 0 auto;
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 560px) {
     .text-center,
     .login-text,
     .list {

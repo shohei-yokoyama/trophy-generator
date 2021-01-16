@@ -156,7 +156,7 @@ export default {
     margin: 10px 100px;
   }
 
-  @media screen and (max-width:375px) {
+  @media screen and (max-width:560px) {
     .trophy__list {
       display: block;
       width: 100%;

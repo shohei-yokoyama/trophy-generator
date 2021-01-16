@@ -280,7 +280,7 @@ export default {
   opacity: 0.3;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 560px) {
   .create {
     width: 100%;
   }
