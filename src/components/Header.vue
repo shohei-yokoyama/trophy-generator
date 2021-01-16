@@ -23,12 +23,12 @@
            <div class="user-photo"><img :src="photoURL"></div>
         <v-btn
         color="white"
-        class="signin ml-5 mt-4" @click="logout"><v-icon>mdi-login-variant</v-icon>ログアウト
+        class="logout signin ml-5 mt-4" @click="logout"><v-icon>mdi-login-variant</v-icon>ログアウト
         </v-btn>
        </div>
     <div v-else key="logout">
       <v-btn
-        class="signin"
+        class="signin logout"
         color="white"
         @click="signIn"><v-icon>mdi-login-variant</v-icon>ログイン</v-btn>
     </div>
@@ -138,6 +138,10 @@ export default {
   pointer;
 }
 
+.logout {
+  color: black;
+}
+
 .twitter_user {
   width: 800px;
 }
@@ -161,6 +165,10 @@ export default {
   @include display_pc {
     display: none !important;
   }
+}
+
+.v-btn>.v-btn__content .v-icon {
+  color: black;
 }
 
 .v-tabs {
