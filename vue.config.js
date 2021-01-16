@@ -6,7 +6,7 @@ module.exports = {
   css: {
     loaderOptions: {
       scss: {
-        additionalData: `@import "@/assets/sass/main.scss";`
+        prependData: `@import "@/styles/common/common.scss";`
       }
     }
   }
