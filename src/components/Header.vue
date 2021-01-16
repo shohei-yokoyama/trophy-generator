@@ -127,7 +127,7 @@ export default {
 }
 
 .signin {
-  color: white;
+  color: black;
   font-weight: bold;
   font-family: 'Kosugi Maru', sans-serif;
 }
